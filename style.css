@@ -27,7 +27,8 @@ html,
 body {
   height: 100%;
   width: 100%;
-  background-image: url(../img/pexels-photoscom-93398.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../img/pexels-pixabay-163726.jpg);
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
@@ -60,7 +61,7 @@ body {
 .nav-masthead .nav-link {
   padding: 0.25rem 0;
   font-weight: 700;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.6);
   background-color: transparent;
   border-bottom: 0.25rem solid transparent;
 }
