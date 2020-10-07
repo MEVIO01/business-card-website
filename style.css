@@ -126,6 +126,28 @@ body {
   animation: main-load var(--main-load-time) ease-in;
 }
 /*
+* Services Inner
+*/
+.main-services-inner {
+  padding: 2rem;
+  border-radius: 1rem;
+}
+.road-transport-title {
+  background-color: rgb(50, 50, 136);
+  padding: 0.5rem;
+}
+.road-transport-description {
+  color: rgba(0, 0, 0, 0.8);
+}
+.services-title {
+  color: rgb(50, 50, 136);
+}
+.services-description {
+  font-weight: bold;
+  font-size: 1em;
+  color: rgba(0, 0, 0, 0.8);
+}
+/*
  * Footer
  */
 .mastfoot {
