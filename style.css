@@ -133,27 +133,51 @@ body {
   border-radius: 1rem;
 }
 .road-transport-title {
+  animation: services-load 300ms ease-in var(--nav-load-time);
+  animation-fill-mode: forwards;
+  transform: translateY(-1em);
+  opacity: 0;
   background-color: rgb(50, 50, 136);
   padding: 0.5rem;
 }
 .road-transport-description {
+  animation: services-load 300ms ease-in calc(var(--nav-load-time) + 400ms);
+  animation-fill-mode: forwards;
+  transform: translateY(-1em);
+  opacity: 0;
   color: rgba(0, 0, 0, 0.8);
 }
 .services-title {
+  animation: services-load 300ms ease-in var(--nav-load-time);
+  animation-fill-mode: forwards;
+  transform: translateY(-1em);
+  opacity: 0;
   color: rgb(50, 50, 136);
 }
 .services-description {
+  animation: services-load 300ms ease-in calc(var(--nav-load-time) + 400ms);
+  animation-fill-mode: forwards;
+  transform: translateY(-1em);
+  opacity: 0;
   font-weight: bold;
   font-size: 1em;
   color: rgba(0, 0, 0, 0.8);
 }
 .services-map {
+  animation: services-load 300ms ease-in calc(var(--nav-load-time) + 400ms);
+  animation-fill-mode: forwards;
+  transform: translateY(-1em);
+  opacity: 0;
   border: 0.3rem solid rgba(0, 0, 0, 0.8);
   border-radius: 1.3rem;
   max-width: 100%;
   max-height: 100%;
 }
 .services-truck {
+  animation: services-load 300ms ease-in calc(var(--nav-load-time) + 400ms);
+  animation-fill-mode: forwards;
+  transform: translateY(-1em);
+  opacity: 0;
   max-width: 100%;
   max-height: 15rem;
 }
@@ -183,5 +207,15 @@ body {
   }
   100% {
     transform: scale(1);
+  }
+}
+@keyframes services-load {
+  0% {
+    transform: translateY(-1em);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0em);
+    opacity: 1;
   }
 }
