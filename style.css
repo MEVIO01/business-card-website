@@ -199,6 +199,17 @@ body {
   max-height: 100%;
 }
 /*
+* Contact Inner
+*/
+.contact-text {
+  animation: services-load 300ms ease-in
+    calc(var(--nav-load-time) + var(--services-content-load-time));
+  animation-fill-mode: forwards;
+  transform: translateY(-1em);
+  opacity: 0;
+  color: rgba(0, 0, 0, 0.8);
+}
+/*
  * Footer
  */
 .mastfoot {
