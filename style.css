@@ -212,8 +212,30 @@ body {
 /*
  * Footer
  */
-.mastfoot {
-  color: rgba(255, 255, 255, 0.5);
+.footer-musthead {
+  animation: services-load 300ms ease-in
+    calc(var(--nav-load-time) + var(--services-content-load-time));
+  animation-fill-mode: forwards;
+  transform: translateY(-1em);
+  opacity: 0;
+}
+.footer-link {
+  color: rgba(255, 255, 255, 0.7);
+}
+.footer-dark-color-link {
+  color: rgba(0, 0, 0, 0.8);
+}
+.footer-dark-color-link:hover,
+.footer-dark-color-link:focus {
+  color: rgba(0, 0, 0, 1);
+}
+.footer-dark-color-company {
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: bold;
+}
+.footer-company {
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: bold;
 }
 /*
 *Animation
