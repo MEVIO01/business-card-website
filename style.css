@@ -212,6 +212,13 @@ body {
 /*
  * Footer
  */
+.footer-musthead {
+  animation: services-load 300ms ease-in
+    calc(var(--nav-load-time) + var(--services-content-load-time));
+  animation-fill-mode: forwards;
+  transform: translateY(-1em);
+  opacity: 0;
+}
 .footer-link {
   color: rgba(255, 255, 255, 0.7);
 }
