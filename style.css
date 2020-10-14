@@ -212,8 +212,12 @@ body {
 /*
  * Footer
  */
-.mastfoot {
-  color: rgba(255, 255, 255, 0.5);
+.footer-link {
+  color: rgba(255, 255, 255, 0.7);
+}
+.footer-company {
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: bold;
 }
 /*
 *Animation
