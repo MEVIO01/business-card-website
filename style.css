@@ -215,6 +215,13 @@ body {
 .footer-link {
   color: rgba(255, 255, 255, 0.7);
 }
+.footer-dark-color-link {
+  color: rgba(0, 0, 0, 0.8);
+}
+.footer-dark-color-company {
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: bold;
+}
 .footer-company {
   color: rgba(255, 255, 255, 0.7);
   font-weight: bold;
